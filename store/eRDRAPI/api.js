@@ -1,6 +1,6 @@
 import axios from "axios"
 const eRDRAPI = axios.create({
-  baseURL: "https://erdr-37817.botics.co",
+  baseURL: "https://rurallink-37817.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
